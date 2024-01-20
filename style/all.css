@@ -1,0 +1,153 @@
+body{
+    background-color: #EFEFF2;
+    margin: 0 auto;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+} 
+@media screen and (max-width:1439px){
+    .learn__counters-item{
+        flex: 1 1 100%;
+    }
+    .learn__counters{
+        flex-wrap: wrap;
+    }
+    .learn__counter-number{
+        margin: 10px 0;
+    }
+}
+.container{
+    padding: 0 15px;
+    /*width: 1440px;*/
+    margin: 0 auto;
+}
+.header{
+    display: flex;  
+    justify-content: space-between;
+    padding: 36px 0 0;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.header__link{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header__btn{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 600;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.btn__box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.learn_container{
+    flex-wrap: wrap;
+}
+.learn__counters{
+    display: flex;
+    gap: 86 px;
+    flex-wrap: wrap;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 0 0 230px;
+    background: url(../img/YOUNG_MAN.png) 100% 0% no-repeat;
+}
+.offer__holder{
+    width: 648px;
+    padding-top: 80px;
+    background: url(../img/Ellipse20.png) 100% 100% no-repeat;
+}
+.offer__title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    
+}
+.offer__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer__marketer{
+    top: 160px;
+    right: 20px;
+}
+.offer__illustrator{
+    top: 60px;
+    right: 60px;
+}
+.offer__animator{
+    top: 30px;
+    left: 180px;
+}
+.offer__programmer{
+    top: 140px;
+    left: 100px;
+}
+.offer__designer{
+    top: 280px;
+    left: 0px;
+}
+.offer__photographer{
+    top: 260px;
+    right: 0px;
+}
+.discover__list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.discover__cards{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
